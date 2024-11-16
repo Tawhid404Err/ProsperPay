@@ -1,3 +1,126 @@
+@import url("https://fonts.googleapis.com/css2?family=Faculty+Glyphic&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.main_nav {
+  @apply flex justify-between items-center h-16 px-16 text-lg [&>*]:flex;
+}
+
+.login_btn {
+  @apply h-10 flex justify-center items-center px-6 rounded-[2rem] ease-in-out duration-200 border-2 border-paste;
+}
+
+#login_btn_1 {
+  color: #17403d;
+  &:hover {
+    background-color: #17403d;
+    color: #fff;
+  }
+}
+
+#login_btn_1:hover ~ #login_btn_2 {
+  background-color: transparent;
+  color: #17403d;
+}
+
+#login_btn_2 {
+  background-color: #17403d;
+  color: #fff;
+  &:hover {
+    background-color: transparent;
+    color: #17403d;
+  }
+}
+.login_btn_parent:has(#login_btn_2:hover) #login_btn_1 {
+  background-color: #17403d;
+  color: #fff;
+}
+
+.nav_links {
+  @apply gap-6 items-center text-paste;
+}
+
+.nav_links > *:not(:first-child) {
+  position: relative;
+
+  &:hover::after {
+    transform: scaleX(1);
+    transform-origin: right;
+  }
+}
+
+.nav_links > *:not(:first-child)::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 2px;
+  background-color: #17403d;
+
+  transition: all 0.3s ease-in-out;
+  transform: scaleX(0);
+  transform-origin: left;
+}
+
+.web_logo {
+  @apply font-faculty text-3xl;
+}
+
+.logo_das {
+  @apply bg-black h-[2px] w-10 rounded mx-2;
+}
+
+@media (max-width: 1170px) {
+  .main_nav {
+    @apply px-10;
+  }
+}
+
+@media (max-width: 1110px) {
+  .main_nav {
+    @apply px-8;
+  }
+
+  .logo_das {
+    @apply mx-0;
+  }
+}
+
+@media (max-width: 1080px) {
+  .web_logo {
+    @apply text-[1.68rem]/[2rem];
+  }
+
+  .nav_links > *:not(:first-child) {
+    @apply text-[1.05rem]/[1.5rem];
+  }
+
+  .login_btn {
+    @apply px-4;
+  }
+}
+
+@media (max-width: 1010px) {
+  .logo_das {
+    @apply h-0 w-0;
+  }
+
+  .web_logo {
+    @apply text-[1.4rem]/[1.5rem];
+  }
+
+  .nav_links {
+    @apply gap-5;
+  }
+
+  .nav_links > *:not(:first-child) {
+    @apply text-[1rem]/[1.3rem];
+  }
+
+  .login_btn {
+    @apply px-4 text-[1rem]/[1.3rem];
+  }
+}
