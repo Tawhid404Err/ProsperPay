@@ -5,7 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ProsperPay</title>
     <link rel="stylesheet" href="style.css">
-    <link href="./output.css" rel="stylesheet">
+    <link rel="stylesheet" href="navbar.css">
+    <link rel="stylesheet" href="hero.css">
 
 </head>
 <body>
@@ -20,10 +21,47 @@
             <li><a href="#">About Us</a></li>
         </ul>
         
-        <ul class="login_btn_parent gap-2">
-            <a id="login_btn_1" class="login_btn" href="#"><button>Login</button></a>
-            <a id="login_btn_2" class="login_btn" href="#"><button>Get Started</button></a>
+        <ul class="login_btn_parent">
+            <a id="login_btn_1" class="login_btn" href="#"><p>Login</p></a>
+            <a id="login_btn_2" class="login_btn" href="#"><p>Get Started</p></a>
+            <div class="menu_wraper">
+                <input type="checkbox" id="sidebar_link">
+                <label for="sidebar_link" id="menu_icon">
+                    <ion-icon size="large" name="grid-outline"></ion-icon>
+                </label>    
+            </div>
         </ul>
     </nav>
+
+    <div class="hero_wraper">
+        <div class="hero_text">
+            <p class="hero_context">PEACE OF MIND FOR YOUR FINANCES</p>
+            <h1 class="hero_title">Experience an Easy Way to Manage Finances</h1>
+            <p class="hero_main_context">We're the most trusted place for people and businesses to track all of your account balances, transactions, and investments in one place.</p>
+            <a class="hero_button" href="#"><button>Get Started</button></a>
+        </div>
+        <div class="hero_img">
+            <div class="octagon"></div>
+            <div class="octagon2">
+                <div class="public_comment">
+                    <h3>"EXCELLENT INTERFACE, SUPER EASY TO USE. BY FAR THE BEST MONEY MANAGEMENT AND PLANNING APP I'VE USED."</h3>
+                </div>
+                <div class="public_id">
+                    <div class="comment_author">
+                        <div class="comment_author_img"></div>
+                        <div class="comment_author_details">
+                            <p>Mohammad Sarfaraj Ahmed</p>
+                            <p>Accountant at SIBL</p>
+                        </div>
+                    </div>
+                    <div class="media_link">Follow our&nbsp;<a href="#">Social Media</a></div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 </body>
 </html>
