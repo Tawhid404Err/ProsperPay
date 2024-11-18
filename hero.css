@@ -6,14 +6,17 @@
   margin-top: 5rem;
   display: flex;
   justify-content: space-between;
+  background-image: url(https://previews.dropbox.com/p/thumb/ACdIHBYczYqiLui_fz3x6WpEyKkl6jl4D1NJTeo-DX8N27DsDKeL9O8RXfxAdkmmdZdaBRAzkBvq4pxdJNc8ppTD5rHpZasszmiqLwr5_OkMS8SAOiF1pjjEIdx8IUHFzOH2Jnaw3nweeZEot93v7Lx1fMnSHGi3_pSSWW_zzeGOnJPQQTxZeWyB8d8GCXugsyL53FZ5_W9PHsJKidVuYWiFQQllCQ4pdKqdgNlfM8V6Efz-wGge5EWQGmO3LugphdWLcoaoekRdjRjd2oG8aKTcLmUEusf9C91ItR-FVo1nPhASIj_Xo0ZQkcWCRVYYBdLyUCUkwF6MsSNG0QhKDo6P/p.png?is_prewarmed=true);
+  background-position: center;
+  background-size: cover;
 }
 
 .hero_text {
-  height: 100%;
   flex: 1;
   display: flex;
   flex-direction: column;
   margin-top: 2rem;
+  margin-right: 2rem;
 }
 
 .hero_context {
@@ -33,7 +36,7 @@
 
 .hero_main_context {
   color: #17403d;
-  width: 25rem;
+  max-width: 25rem;
   font-size: 18px;
 }
 
@@ -51,7 +54,7 @@
   border: 2px solid #17403d;
 
   &:hover {
-    background-color: #fff;
+    background-color: transparent;
   }
 
   &:hover button {
@@ -71,6 +74,9 @@
 .hero_img {
   height: 100%;
   flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: end;
 }
 
 .octagon {
@@ -79,6 +85,8 @@
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
+  min-width: 520px;
+  max-width: 620px;
   height: 300px;
   background-color: #dee4e4;
   clip-path: polygon(
@@ -97,6 +105,8 @@
 
 .octagon2 {
   width: 100%;
+  min-width: 520px;
+  max-width: 620px;
   height: 300px;
   background-color: #dee4e4;
   clip-path: polygon(
@@ -140,6 +150,7 @@
   background-image: url(https://previews.dropbox.com/p/thumb/ACdK-iMqmKzoA-qrABx4vOMcwy511EkHDaN-kMvo2P9bdhZfFHLhsJ73RpRlZTExmgElQHVlIeylB9NCuO6m_rpSljZ7adm3gQEfqR-xci088bi4DU4X0GaC52bj3F3XHB6cpbduenIoOyCAMj7wF3S4E8OdFsuTtaq3y88F4DMB_fgNl1QR6RNlpLFa343y8erO-c_FpLlCZ7abV3bC3vZEO6MCM4nQnIDVXBg41hrzbhaWyNSq5RD2MkoPxUadpvnP1pc4kinYsxJWCngx-1sLlUc0NoI8_OOS-ur8YMy5OmJfe7wwYjYcbudsO93CkXws7JY0VSnna4StXjM5nYAk/p.png?is_prewarmed=true);
   background-repeat: no-repeat;
   background-size: contain;
+  background-position: center;
 }
 
 .comment_author_details {
@@ -170,6 +181,11 @@
 .media_link a {
   position: relative;
   color: #17403d;
+  transition: all 0.2s ease-in-out;
+
+  &:hover {
+    transform: translateY(-3px);
+  }
   &::after {
     content: "";
     position: absolute;
@@ -186,5 +202,22 @@
   }
 }
 
+@media (max-width: 1130px) {
+  .hero_wraper {
+    justify-content: center;
+  }
+
+  .hero_wraper {
+    width: 90%;
+  }
+}
+
 @media (max-width: 890px) {
+}
+
+@media (max-width: 440px) {
+  .hero_title {
+    font-size: 3rem;
+    line-height: 4rem;
+  }
 }
