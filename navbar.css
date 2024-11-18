@@ -20,28 +20,28 @@
   padding: 0 1.5rem;
   border-radius: 2rem;
   transition: all 0.2s ease-in-out;
-  border: 2px solid #17403d;
+  border: 2px solid var(--color-1);
 }
 
 #login_btn_1 {
-  color: #17403d;
+  color: var(--color-1);
   &:hover {
-    background-color: #17403d;
+    background-color: var(--color-1);
     color: #fff;
   }
 }
 
 #login_btn_1:hover ~ #login_btn_2 {
   background-color: transparent;
-  color: #17403d;
+  color: var(--color-1);
 }
 
 #login_btn_2 {
-  background-color: #17403d;
+  background-color: var(--color-1);
   color: #fff;
   &:hover {
     background-color: transparent;
-    color: #17403d;
+    color: var(--color-1);
   }
 }
 
@@ -53,7 +53,7 @@
 }
 
 .login_btn_parent:has(#login_btn_2:hover) #login_btn_1 {
-  background-color: #17403d;
+  background-color: var(--color-1);
   color: #fff;
 }
 
@@ -65,7 +65,7 @@
 }
 
 .nav_links a {
-  color: #17403d;
+  color: var(--color-1);
 }
 
 .nav_links > *:not(:nth-child(1)):not(:nth-child(2)) {
@@ -84,7 +84,7 @@
   bottom: 0;
   width: 100%;
   height: 2px;
-  background-color: #17403d;
+  background-color: var(--color-1);
 
   transition: all 0.3s ease-in-out;
   transform: scaleX(0);
@@ -98,7 +98,7 @@
 }
 
 .logo_das {
-  background-color: #17403d;
+  background-color: var(--color-1);
   height: 2px;
   width: 2.5rem;
   border-radius: 0.25rem;
@@ -121,7 +121,7 @@
 #menu_icon {
   display: flex;
   align-items: center;
-  color: #17403d;
+  color: var(--color-1);
 }
 
 @media (max-width: 1170px) {

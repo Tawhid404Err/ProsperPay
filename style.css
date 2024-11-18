@@ -11,3 +11,7 @@ body {
   align-items: center;
   overflow-x: hidden;
 }
+
+:root {
+  --color-1: #19706a;
+}
