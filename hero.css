@@ -80,13 +80,13 @@
 
 .octagon {
   overflow: hidden;
-  background-image: url(./img/card1.png);
+  background-image: url(./img/card1.webp);
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
   min-width: 520px;
   max-width: 620px;
-  height: 300px;
+  height: 280px;
   background-color: #dee4e4;
   clip-path: polygon(
     0% 0%,
@@ -106,7 +106,7 @@
   width: 100%;
   min-width: 520px;
   max-width: 620px;
-  height: 300px;
+  height: 280px;
   background-color: #dee4e4;
   clip-path: polygon(
     5% 0%,
@@ -146,7 +146,7 @@
   height: 100%;
   aspect-ratio: 1;
   border-radius: 50%;
-  background-image: url(./img/profile1.png);
+  background-image: url(./img/profile1.webp);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
@@ -211,7 +211,7 @@
     margin-top: 0;
     width: 100%;
     padding: 0 5%;
-    background-image: url(./img/card1.png);
+    background-image: url(./img/card1.webp);
     background-size: cover;
     background-repeat: no-repeat;
     position: relative;
@@ -223,8 +223,7 @@
       left: 0;
       width: 100%;
       height: 100%;
-      background: rgba(0, 0, 0, 0.342); /* Semi-transparent overlay */
-      backdrop-filter: blur(2px) contrast(95%); /* Apply filter */
+      background: rgba(0, 0, 0, 0.37); /* Semi-transparent overlay */
     }
   }
 
@@ -236,13 +235,13 @@
     color: #dbdbdb;
   }
 
-  .hero_main_context {
-  }
+  /* .hero_main_context {
+  } */
 }
 
 @media (max-width: 890px) {
   .hero_wraper {
-    background-image: url(./img/card1.png);
+    background-image: url(./img/card1.webp);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
