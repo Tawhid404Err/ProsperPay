@@ -80,7 +80,7 @@
 
 .octagon {
   overflow: hidden;
-  background-image: url(https://previews.dropbox.com/p/thumb/ACdIHBYczYqiLui_fz3x6WpEyKkl6jl4D1NJTeo-DX8N27DsDKeL9O8RXfxAdkmmdZdaBRAzkBvq4pxdJNc8ppTD5rHpZasszmiqLwr5_OkMS8SAOiF1pjjEIdx8IUHFzOH2Jnaw3nweeZEot93v7Lx1fMnSHGi3_pSSWW_zzeGOnJPQQTxZeWyB8d8GCXugsyL53FZ5_W9PHsJKidVuYWiFQQllCQ4pdKqdgNlfM8V6Efz-wGge5EWQGmO3LugphdWLcoaoekRdjRjd2oG8aKTcLmUEusf9C91ItR-FVo1nPhASIj_Xo0ZQkcWCRVYYBdLyUCUkwF6MsSNG0QhKDo6P/p.png?is_prewarmed=true);
+  background-image: url(./img/card1.png);
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
@@ -146,7 +146,7 @@
   height: 100%;
   aspect-ratio: 1;
   border-radius: 50%;
-  background-image: url(https://previews.dropbox.com/p/thumb/ACdK-iMqmKzoA-qrABx4vOMcwy511EkHDaN-kMvo2P9bdhZfFHLhsJ73RpRlZTExmgElQHVlIeylB9NCuO6m_rpSljZ7adm3gQEfqR-xci088bi4DU4X0GaC52bj3F3XHB6cpbduenIoOyCAMj7wF3S4E8OdFsuTtaq3y88F4DMB_fgNl1QR6RNlpLFa343y8erO-c_FpLlCZ7abV3bC3vZEO6MCM4nQnIDVXBg41hrzbhaWyNSq5RD2MkoPxUadpvnP1pc4kinYsxJWCngx-1sLlUc0NoI8_OOS-ur8YMy5OmJfe7wwYjYcbudsO93CkXws7JY0VSnna4StXjM5nYAk/p.png?is_prewarmed=true);
+  background-image: url(./img/profile1.png);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
@@ -211,7 +211,7 @@
     margin-top: 0;
     width: 100%;
     padding: 0 5%;
-    background-image: url(https://previews.dropbox.com/p/thumb/ACdIHBYczYqiLui_fz3x6WpEyKkl6jl4D1NJTeo-DX8N27DsDKeL9O8RXfxAdkmmdZdaBRAzkBvq4pxdJNc8ppTD5rHpZasszmiqLwr5_OkMS8SAOiF1pjjEIdx8IUHFzOH2Jnaw3nweeZEot93v7Lx1fMnSHGi3_pSSWW_zzeGOnJPQQTxZeWyB8d8GCXugsyL53FZ5_W9PHsJKidVuYWiFQQllCQ4pdKqdgNlfM8V6Efz-wGge5EWQGmO3LugphdWLcoaoekRdjRjd2oG8aKTcLmUEusf9C91ItR-FVo1nPhASIj_Xo0ZQkcWCRVYYBdLyUCUkwF6MsSNG0QhKDo6P/p.png?is_prewarmed=true);
+    background-image: url(./img/card1.png);
     background-size: cover;
     background-repeat: no-repeat;
     position: relative;
@@ -242,7 +242,7 @@
 
 @media (max-width: 890px) {
   .hero_wraper {
-    background-image: url(https://previews.dropbox.com/p/thumb/ACeGL8Zpl-h50w88sLn8D5BtLm6_A3UwgoJcBQ4HPOps8nPNlNemCItQJVq9sPUyU6HNJjbo9HGRezD2t0rNAmFpFMyGHgMe9SpJ6RKIqND2LdrqPk45B3nbbz06TxemvfJ_Nbxyb-XLjUXKSKCjLyKEMfdyMIZa7h5Sh_k7F0r1cAUpQn2FO9MtOOSLxeSm4hrUJPfNCWrNnr7h6xqeg_S8XWOOCo-W3k4l09HtLgpXubVB6zK1IZ2AUUeSQBcFk2Ck5gkA3n5LU4oFHQ50pvyhUDUrH0c4r9WvNRuqs1WlHAL0X1eDPEPYSR00DGVo7t7f4cLlnD6Bpw9OGvxqu5Vb/p.jpeg?is_prewarmed=true);
+    background-image: url(./img/card1.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
