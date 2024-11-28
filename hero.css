@@ -2,7 +2,8 @@
 
 .hero_wraper {
   height: max-content;
-  width: 85%;
+  width: 100%;
+  padding: 0 7rem;
   margin-top: 5rem;
   display: flex;
   justify-content: space-between;
@@ -15,6 +16,7 @@
   margin-top: 2rem;
   margin-right: 2rem;
   z-index: 1;
+  max-width: 965px;
 }
 
 .hero_context {
@@ -72,10 +74,11 @@
 
 .hero_img {
   height: 100%;
+  max-width: 685px;
   flex: 1;
   display: flex;
   flex-direction: column;
-  align-items: end;
+  align-items: start;
 }
 
 .octagon {
@@ -196,6 +199,12 @@
   }
 }
 
+@media (min-width: 1945px) {
+  .hero_wraper {
+    justify-content: center;
+  }
+}
+
 @media (max-width: 1130px) {
   .hero_wraper {
     justify-content: center;
@@ -223,7 +232,12 @@
       left: 0;
       width: 100%;
       height: 100%;
-      background: rgba(0, 0, 0, 0.37); /* Semi-transparent overlay */
+      background: rgb(0, 0, 0);
+      background: linear-gradient(
+        180deg,
+        rgba(0, 0, 0, 0.3085609243697479) 90%,
+        rgba(255, 255, 255, 1) 100%
+      );
     }
   }
 
