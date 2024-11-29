@@ -4,7 +4,7 @@
   height: max-content;
   width: 100%;
   padding: 0 7rem;
-  margin-top: 5rem;
+  margin-top: 4rem;
   display: flex;
   justify-content: space-between;
 }
@@ -27,7 +27,7 @@
 }
 
 .hero_title {
-  font-size: 3.5rem;
+  font-size: 3rem;
   line-height: 5rem;
   margin-bottom: 1rem;
   font-family: "Merriweather", sans-serif;
@@ -235,7 +235,7 @@
       background: rgb(0, 0, 0);
       background: linear-gradient(
         180deg,
-        rgba(0, 0, 0, 0.3085609243697479) 90%,
+        rgba(0, 0, 0, 0.3085609243697479) 95%,
         rgba(255, 255, 255, 1) 100%
       );
     }

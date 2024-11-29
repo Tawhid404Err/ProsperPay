@@ -1,11 +1,14 @@
 .hero_wraper2 {
   margin-top: 0;
+  background-color: #dee4e43d;
+  padding-top: 1rem;
+  padding-bottom: 1.5rem;
 }
 
 .colab {
   width: 100%;
   height: max-content;
-  margin: 1rem 0;
+  margin: 3rem 0;
 }
 
 .colab__ul {
@@ -110,13 +113,17 @@
       background: linear-gradient(
         180deg,
         rgba(255, 255, 255, 1) 0%,
-        rgba(0, 0, 0, 0.3085609243697479) 10%
+        rgba(0, 0, 0, 0.3085609243697479) 5%
       );
     }
   }
 
   .colab__ul {
     height: 50px;
+  }
+
+  .colab {
+    margin: 0;
   }
 }
 
@@ -204,13 +211,3 @@
     display: none;
   }
 }
-
-/* @media (max-width: 1240px) {
-
-} */
-
-/* @media (max-width: 1400px) {
-  .colab__ul {
-    height: 50px;
-  }
-} */
