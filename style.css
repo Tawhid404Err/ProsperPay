@@ -12,6 +12,10 @@ body {
   overflow-x: hidden;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 :root {
   --color-1: #11a189;
 }
