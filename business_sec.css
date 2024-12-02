@@ -1,4 +1,4 @@
-.hero_wraper3 {
+.hero_wrapper3 {
   background-color: #c2d8c3b4;
   margin-top: 0;
   padding-top: 4rem;
@@ -10,7 +10,7 @@
 }
 
 @media (max-width: 1050px) {
-  .hero_wraper3 {
+  .hero_wrapper3 {
     margin-top: 0;
     width: 100%;
     padding: 0 5%;
