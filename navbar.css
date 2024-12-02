@@ -106,7 +106,7 @@
   margin-right: 0.5rem;
 }
 
-.menu_wraper {
+.menu_wrapper {
   height: 100%;
   display: none;
   align-items: center;
@@ -186,15 +186,15 @@
 }
 
 @media (max-width: 890px) {
-  .menu_wraper {
+  .menu_wrapper {
     display: flex;
   }
 
   .nav_links > *:not(:first-child) {
     display: none;
   }
-  .main_nav {
-  }
+  /* .main_nav {
+  } */
 
   .login_btn {
     display: none;

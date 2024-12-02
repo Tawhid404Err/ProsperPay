@@ -1,6 +1,6 @@
 .solution_wrapper {
   width: 100%;
-  height: 750px;
+  height: 850px;
   background-color: var(--color-1);
   position: relative;
   display: flex;
@@ -17,4 +17,31 @@
     transform: rotate(50deg);
     z-index: 1;
   }
+}
+
+.solution__content {
+  width: 100%;
+  height: 650px;
+  position: absolute;
+  z-index: 2;
+  top: 100px;
+  left: 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.solution__title {
+  font-size: 3rem;
+  line-height: 5rem;
+  margin-bottom: 1rem;
+  font-family: "Merriweather", sans-serif;
+  color: var(--color-3);
+  min-width: auto;
+  max-width: 610px;
+}
+
+.solution__context {
+  color: var(--color-3);
 }
