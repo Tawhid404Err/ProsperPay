@@ -13,7 +13,7 @@
     position: absolute;
     height: 40%;
     width: 200%;
-    background-color: rgb(16, 238, 238);
+    background-color: rgba(16, 238, 238, 0.514);
     transform: rotate(50deg);
     z-index: 1;
   }
@@ -29,6 +29,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: space-between;
   text-align: center;
 }
 
@@ -44,4 +45,121 @@
 
 .solution__context {
   color: var(--color-3);
+}
+
+.solution__text__wrapper {
+  padding: 0 20px;
+}
+
+.solution__cards {
+  width: 90%;
+  height: fit-content;
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: nowrap;
+  margin: 0 5px;
+  overflow-x: scroll;
+  position: absolute;
+  bottom: 0;
+
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+.solution__cards__items {
+  height: 330px;
+  width: 280px;
+  min-width: 250px;
+  border-radius: 15px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  overflow: hidden;
+  position: relative;
+}
+
+.solution__cards__item1 {
+  background-color: var(--color-3);
+}
+
+.solution__card__logo {
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  font-size: 40px;
+}
+
+.solution__card__style {
+  width: 100%;
+  position: absolute;
+  top: 120px;
+  left: 0;
+}
+
+.solution__card__style__ul1 {
+  list-style-type: none;
+  width: 100%;
+  border-bottom: 1px solid black;
+  height: 30px;
+  display: flex;
+  justify-content: start;
+}
+
+.solution__card__style__ul1 li {
+  width: 40px;
+  border-right: 1px solid black;
+}
+
+.solution__card__style__ul2 {
+  list-style-type: none;
+  width: 100%;
+  height: 30px;
+  display: flex;
+  justify-content: end;
+}
+
+.solution__card__style__ul2 li {
+  width: 60px;
+  border-left: 1px solid black;
+}
+
+.solution__card__style__ul2 {
+  list-style-type: none;
+}
+
+.solution__card__savings {
+  width: 100%;
+  text-align: start;
+}
+
+.solution__card__savings h3 {
+  font-size: 20px;
+  line-height: 3rem;
+}
+
+.solution__card__savings p {
+  line-height: 1.5rem;
+  text-align: justify;
+}
+
+@media (max-width: 1178px) {
+  .solution__cards__items {
+    margin-right: 20px;
+  }
+}
+
+@media (max-width: 540px) {
+  .solution__cards {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  .solution__content {
+    height: 750px;
+  }
 }
